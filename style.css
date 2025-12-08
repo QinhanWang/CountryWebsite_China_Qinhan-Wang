@@ -93,7 +93,7 @@ nav a:active{
 }
 
 .image-box img{
-  height: 290px;
+  height: 260px;
   border-radius: 20px;
   transition: 0.4s ease;
   cursor: pointer;
@@ -132,9 +132,3 @@ nav a:active{
   border-radius: 0;   
   display: block;
 }
-
-
-
-
-
-
