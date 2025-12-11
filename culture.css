@@ -7,6 +7,41 @@ body{
 }
 
 /* ---------- BANNER ---------- */
+nav{
+  background-color: rgba(117, 114, 114, 0.426);
+  padding: 10px;
+  border: 2px solid white;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ====== NAV BUTTON UPGRADE ====== */
+nav a{
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 10px 22px;
+  border: 2px solid black;
+  border-radius: 10px;
+  
+  background-color: white;
+  transition: 0.35s ease;
+  position: relative; 
+}
+
+nav a:hover{
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px white;
+  background-color: white;
+}
+
+nav a:active{
+  transform: scale(0.95);
+}
+
 .banner{
   background-color: red;
   color: white;
@@ -39,7 +74,6 @@ nav a{
   padding: 10px 22px;
   border: 2px solid black;
   border-radius: 10px;
-  
   background-color: white;
   transition: 0.35s ease;
   position: relative; 
@@ -56,17 +90,16 @@ nav a:active{
 }
 
 /* ---------- MAIN CONTENT (WITH BACKGROUND IMAGE) ---------- */
-.main{
+.main_culture{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
   display: flex;
-  justify-content: space-around;
+	justify-content:center;
   align-items: center;
-  padding: 60px;
-  min-height: 80vh;
-  background-image: url("culture.body.\(1\)pic.png");  
-  background-size: cover;       
-  background-position: center;  
-  background-repeat: no-repeat; 
-  margin-bottom: 0;
+  padding: 1rem 5rem 1rem 2rem;
+  background-image: url("culture.body.(1)pic.png");  
 }
 
 /* ====== TEXT HOVER EFFECT ====== */
@@ -102,6 +135,9 @@ nav a:active{
   opacity: 1;                 
 }
 
+.display-p p:hover{
+  font-size: 100px;
+}
 /* ---------- FOOTER ---------- */
 .footer{
   background-color: black;
@@ -111,16 +147,4 @@ nav a:active{
   margin-top: 0;
 }
 
-/* ---------- HERO POSTER (FULL IMAGE DISPLAY) ---------- */
-.poster{
-  width: 100%;  
-  padding: 0;         
-  margin: 0;
-}
 
-.poster img{
-  width: 100vw;        
-  max-width: 100%;    
-  height: auto;
-  border-radius: 0;  
-}
