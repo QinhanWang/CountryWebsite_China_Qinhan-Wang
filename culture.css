@@ -92,7 +92,7 @@ nav a:active{
 /* ---------- MAIN CONTENT (WITH BACKGROUND IMAGE) ---------- */
 .main_culture{
   background-position: center;
-  background-size: cover;
+  background-size: 2193px;
   background-repeat: no-repeat;
   height: auto;
   display: flex;
