@@ -121,7 +121,7 @@ nav a:active{
 }
 
 .image-box img{
-  height: 350px;
+  height: 330px;
   border-radius: 30px;
   transition: 0.4s ease;
   cursor: pointer;
@@ -136,16 +136,16 @@ nav a:active{
 }
 
 .image-box p{
-  transition: 0.4s ease;
-  color:white;                
+  transition: 0.4s ease;               
   background-color: rgba(0,0,0,0.25);  
   padding: 25px;
   border-radius: 12px;
 } 
+
 .image-box p:hover{
   transform: scale(1.03);                 
   box-shadow: 0 10px 25px rgba(0,0,0,0.25); 
-  color:black;
+  background-color: black;
   padding: 25px;
   border-radius: 12px; 
   opacity:0.5; 

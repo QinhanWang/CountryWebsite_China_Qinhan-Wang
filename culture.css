@@ -92,7 +92,7 @@ nav a:active{
 /* ---------- MAIN CONTENT (WITH BACKGROUND IMAGE) ---------- */
 .main_culture{
   background-position: center;
-  background-size: 2193px;
+  background-size: 2400px;
   background-repeat: no-repeat;
   height: auto;
   display: flex;
@@ -135,9 +135,22 @@ nav a:active{
   opacity: 1;                 
 }
 
-.display-p p:hover{
-  font-size: 100px;
+.image-box p{
+  transition: 0.4s ease;               
+  background-color: rgba(212, 209, 209, 0.25);  
+  padding: 25px;
+  border-radius: 12px;
+} 
+
+.image-box p:hover{
+  transform: scale(1.03);                 
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25); 
+  background:white;
+  padding: 25px;
+  border-radius: 12px; 
+  opacity:0.5; 
 }
+
 /* ---------- FOOTER ---------- */
 .footer{
   background-color: black;
