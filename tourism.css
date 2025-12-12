@@ -92,14 +92,14 @@ nav a:active{
 /* ---------- MAIN CONTENT (WITH BACKGROUND IMAGE) ---------- */
 .main_culture{
   background-position: center;
-  background-size: 1800px;
+  background-size: 1515px;
   background-repeat: no-repeat;
   height: auto;
   display: flex;
   justify-content:center;
   align-items: center;
   padding: 1rem 5rem 1rem 2rem;
-  background-image: url("");  
+  background-image: url("tourism.back\(1\).jpg");  
 }
 
 /* ====== TEXT HOVER EFFECT ====== */
